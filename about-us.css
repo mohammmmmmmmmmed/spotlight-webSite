@@ -1,0 +1,41 @@
+.flex{
+    display: flex;
+    padding-bottom: 5vh;
+    
+}
+.flex img{
+    max-width: 20%;
+    
+    border-radius: 5px;
+}
+.right{
+
+    margin-right: 3vw;
+}
+.left{
+    margin-left: 3vw;
+}
+.flex p{
+    margin: 5vh;
+    font-size: 130%;
+}
+.content{
+    /* margin-bottom: 5vh; */
+}
+.mgt{
+    margin-top: 3vh;
+}
+@media  (max-width: 1430px) {
+    .flex{
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex img{
+        margin-top: 2vh;
+        
+        max-width: 90vw;
+    }
+    .right{
+        flex-direction: column-reverse;
+    }
+}

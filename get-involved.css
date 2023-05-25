@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+}
+.flex img{
+    max-width:40%;
+    margin: 5vw;
+}
+.br {
+    color: black;
+    margin: 5vh auto;
+}
+@media (max-width:768px){
+    .flex{
+        flex-direction: column;
+        margin: auto 5vw;
+        align-items: center;
+    }
+    .flex img{
+        max-width: 80%;
+        
+    }
+}
