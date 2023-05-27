@@ -1,7 +1,14 @@
 window.onscroll = function() {
     scrollFunction();
 };
-
+  function setNavlistTransparent() {
+          document.getElementById("navlist").style.backgroundColor = "rgba(0, 0, 0, 0)";
+        }
+      
+        window.onload = function() {
+          setNavlistTransparent();
+        };
+      
 function scrollFunction() {
     if (document.body.scrollTop > 90 || document.documentElement.scrollTop > 90) {
         document.getElementById("navlist").style.padding = "2px";
